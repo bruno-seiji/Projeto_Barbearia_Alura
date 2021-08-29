@@ -1,0 +1,56 @@
+footer {
+  text-align: center;
+}
+
+#container1 {
+  width: 66rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(167, 166, 166);
+  padding: 1rem;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 6rem;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+#logo {
+  width: 30rem;
+}
+
+#logoh {
+  width: 60rem;
+}
+
+#Produtos {
+  width: 66rem;
+  margin: 1rem auto;
+}
+
+#Produtos li {
+  display: inline-block;
+  text-align: center;
+}
+
+.itens {
+  margin-left: 5rem;
+}
