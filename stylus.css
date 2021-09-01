@@ -33,6 +33,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 #logo {
   width: 30rem;
 }
@@ -43,14 +47,37 @@ nav a {
 
 #Produtos {
   width: 66rem;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding: 3.12rem 0;
 }
 
 #Produtos li {
   display: inline-block;
   text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 1.87rem 1.25rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 0.125rem solid black;
 }
 
-.itens {
-  margin-left: 5rem;
+#Produtos li:hover {
+  border: 0.125rem solid black;
+}
+
+h2 {
+  font-size: 1.87rem;
+  font-weight: bold;
+}
+
+.Descrição {
+  font-size: 1.12rem;
+}
+
+.Preço {
+  margin-top: 0.62rem;
+  font-weight: bold;
+  font-size: 1.37rem;
 }
