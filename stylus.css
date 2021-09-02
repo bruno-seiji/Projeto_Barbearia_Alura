@@ -60,11 +60,19 @@ nav a:hover {
   padding: 1.87rem 1.25rem;
   box-sizing: border-box;
   border-radius: 0.5rem;
-  border: 0.125rem solid black;
+  border: 0.2rem solid black;
 }
 
 #Produtos li:hover {
-  border: 0.125rem solid black;
+  border-color: #C78C19;
+}
+
+#Produtos li:active {
+  border-color: #088C19;    
+}
+
+#Produtos li:hover h2 {
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -81,3 +89,5 @@ h2 {
   font-weight: bold;
   font-size: 1.37rem;
 }
+
+ 
