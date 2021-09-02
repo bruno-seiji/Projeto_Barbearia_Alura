@@ -1,7 +1,3 @@
-footer {
-  text-align: center;
-}
-
 #container1 {
   width: 66rem;
   position: relative;
@@ -17,7 +13,7 @@ nav {
   display: inline-block;
   position: absolute;
   right: 0;
-  top: 6rem;
+  top: 7rem;
 }
 
 nav li {
@@ -29,7 +25,7 @@ nav a {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -38,7 +34,7 @@ nav a:hover {
 }
 
 #logo {
-  width: 30rem;
+  width: 35rem;
 }
 
 #logoh {
@@ -64,11 +60,11 @@ nav a:hover {
 }
 
 #Produtos li:hover {
-  border-color: #C78C19;
+  border-color: #c78c19;
 }
 
 #Produtos li:active {
-  border-color: #088C19;    
+  border-color: #0cc725;
 }
 
 #Produtos li:hover h2 {
@@ -90,4 +86,14 @@ h2 {
   font-size: 1.37rem;
 }
 
- 
+footer {
+  text-align: center;
+  background: rgb(167, 166, 166);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+footer img {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
