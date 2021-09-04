@@ -1,5 +1,6 @@
+/*------------------------------Header-------------------------------------*/
 #container1 {
-  width: 66rem;
+  width: 100%;
   position: relative;
   margin: 0 auto;
 }
@@ -40,6 +41,8 @@ nav a:hover {
 #logoh {
   width: 60rem;
 }
+
+/*------------------------------Main-------------------------------------*/
 
 #Produtos {
   width: 66rem;
@@ -85,6 +88,8 @@ h2 {
   font-weight: bold;
   font-size: 1.37rem;
 }
+
+/*------------------------------Footer-------------------------------------*/
 
 footer {
   text-align: center;
