@@ -68,17 +68,21 @@ form label, form legend   {
 
 #checkbox{margin: 1.5rem 0;}
 
-#enviar{width: 40%;
+#enviar{
+  width: 40%;
   padding:  1rem 0;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 0.5rem;
   background: rgb(186, 186, 186);
   transition: 1s background;
+  transition: 1s all;
+  cursor: pointer;
   }
 
   #enviar:hover{
     background: rgb(170, 170, 170);
+    transform: scale(1.2);
   }
 
 
