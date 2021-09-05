@@ -53,7 +53,8 @@ form {
   margin: 2.5rem 0;
 }
 
-form label, form legend   {
+form label,
+form legend {
   display: block;
   font-size: 1.2rem;
   margin: 0 0 1rem;
@@ -66,27 +67,51 @@ form label, form legend   {
   width: 50%;
 }
 
-#checkbox{margin: 1.5rem 0;}
+#checkbox {
+  margin: 1.5rem 0;
+}
 
-#enviar{
+#comen {
+  margin-bottom: 2rem;
+}
+
+select {
+  width: 8rem;
+  height: 1.5rem;
+}
+
+#enviar {
   width: 40%;
-  padding:  1rem 0;
+  padding: 1rem 0;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 0.5rem;
   background: rgb(186, 186, 186);
   transition: 1s background;
-  transition: 1s all;
   cursor: pointer;
-  }
+}
 
-  #enviar:hover{
-    background: rgb(170, 170, 170);
-    transform: scale(1.2);
-  }
+#enviar:hover {
+  background: rgb(170, 170, 170);
+  transform: scale(1.2);
+}
 
+table {
+  margin-bottom: 3rem;
+  text-align: center;
+}
 
+thead {
+  background: rgb(95, 93, 93);
+  font-weight: bold;
+  color: white;
+}
 
+td,
+th {
+  border: 0.1rem solid black;
+  padding: 0.5rem 1rem;
+}
 
 /*------------------------------Footer-------------------------------------*/
 
