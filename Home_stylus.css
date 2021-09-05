@@ -1,0 +1,45 @@
+/*------------------------------Header-------------------------------------*/
+#container1 {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(167, 166, 166);
+  padding: 1rem;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 7rem;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  width: 35rem;
+}
+
+#logoh {
+  width: 60rem;
+}
+
+/*------------------------------Main-------------------------------------*/
