@@ -42,4 +42,74 @@ nav a:hover {
   width: 60rem;
 }
 
-/*------------------------------Main-------------------------------------*/
+/*------------------------------Main---------------------------------------*/
+#banner {
+  width: 100%;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#principal {
+  padding: 1rem;
+}
+
+#utensilios {
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#principal p {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.titulosec {
+  text-align: center;
+  margin: 0 0 1rem;
+  font-weight: bold;
+  font-size: 3rem;
+  clear: left;
+}
+
+#beneficios {
+  margin-top: 3rem;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#img2 {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+}
+
+/*------------------------------Footer-------------------------------------*/
+
+footer {
+  text-align: center;
+  background: rgb(167, 166, 166);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+footer img {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
