@@ -1,4 +1,9 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /*------------------------------Header-------------------------------------*/
+
 #container1 {
   width: 80%;
   position: relative;
@@ -24,7 +29,7 @@ nav li {
 
 nav a {
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: bold;
   font-size: 1.8rem;
   text-decoration: none;
@@ -42,12 +47,67 @@ nav a:hover {
   width: 60rem;
 }
 
-/*------------------------------Main-------------------------------------*/
+/*------------------------------Main---------------------------------------*/
+
+/*------Home--------*/
+#banner {
+  width: 100%;
+}
 
 main {
-  width: 66rem;
+  width: 80%;
   margin: 0 auto;
 }
+
+#principal {
+  padding: 1rem;
+}
+
+#utensilios {
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#principal p {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.titulosec {
+  text-align: center;
+  margin: 0 0 1rem;
+  font-weight: bold;
+  font-size: 3rem;
+  clear: left;
+}
+
+#beneficios {
+  margin-top: 3rem;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#img2 {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+}
+
+/*------Formulario---------*/
 
 form {
   margin: 2.5rem 0;
@@ -111,6 +171,57 @@ td,
 th {
   border: 0.1rem solid black;
   padding: 0.5rem 1rem;
+}
+/*----------Produtos----------------*/
+#Main_Produtos {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#Produtos {
+  width: 66rem;
+  margin: 0 auto;
+  padding: 3.12rem 0;
+}
+
+#Produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 1.87rem 1.25rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 0.2rem solid black;
+}
+
+#Produtos li:hover {
+  border-color: #c78c19;
+}
+
+#Produtos li:active {
+  border-color: #0cc725;
+}
+
+#Produtos li:hover h2 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.87rem;
+  font-weight: bold;
+}
+
+.Descrição {
+  font-size: 1.12rem;
+}
+
+.Preço {
+  margin-top: 0.62rem;
+  font-weight: bold;
+  font-size: 1.37rem;
 }
 
 /*------------------------------Footer-------------------------------------*/
