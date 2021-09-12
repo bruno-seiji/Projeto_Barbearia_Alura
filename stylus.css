@@ -31,12 +31,13 @@ nav a {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+  opacity: 0.8;
 }
 
 #logo {
@@ -54,11 +55,6 @@ nav a:hover {
   width: 100%;
 }
 
-main {
-  width: 80%;
-  margin: 0 auto;
-}
-
 #principal {
   padding: 1rem;
 }
@@ -69,6 +65,11 @@ main {
   float: left;
   margin-right: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+#principal {
+  padding: 3rem 0;
+  background: #fefefe;
 }
 
 #principal p {
@@ -88,23 +89,61 @@ em {
   text-align: center;
   margin: 0 0 1rem;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   clear: left;
 }
 
-#beneficios {
-  margin-top: 3rem;
+#mapa {
+  padding: 3rem 0;
+  background: linear-gradient(#fefefe, #888888);
 }
 
-ul {
+#mapa p {
+  padding: 0 0 2rem;
+  text-align: center;
+}
+
+#beneficios {
+  background: #888888;
+  width: 100%;
+}
+
+#beneficios h3 {
+  padding: 3rem 0;
+}
+
+#divben ul {
+  width: 30%;
   display: inline-block;
   vertical-align: top;
+  margin-left: 15%;
 }
 
-#img2 {
-  position: relative;
-  display: inline-block;
-  width: 60%;
+#divben li {
+  font-size: 1.5rem;
+}
+
+#divben li.itens {
+  line-height: 2;
+}
+
+#divben li.itens::before {
+  content: '★  ';
+}
+
+#divben img {
+  width: 40%;
+}
+
+#video {
+  text-align: center;
+  width: 850px;
+  margin: 2rem auto;
+}
+
+.marg {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*------Formulario---------*/
@@ -236,4 +275,10 @@ footer {
 footer img {
   width: 15rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) 
+{ 
+  
+  
 }
