@@ -2,7 +2,6 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS_reset.css" />
     <link rel="stylesheet" href="stylus.css" />
@@ -26,120 +25,129 @@
         </h1>
         <nav>
           <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Produtos.html">Podutos</a></li>
+            <li class="margin_right_nav"><a href="Home.html">Home</a></li>
+            <li class="margin_right_nav">
+              <a href="Produtos.html">Podutos</a>
+            </li>
             <li><a href="Formulaio.html">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <form>
-        <!---------------------Dados Escritos---------------------------->
-        <label for="nome">Nome e Sobrenome</label>
-        <input type="text" id="nome" class="inputpadrao" required />
+      <div class="main_form">
+        <form>
+          <!---------------------Dados Escritos---------------------------->
+          <label for="nome">Nome e Sobrenome</label>
+          <input type="text" id="nome" class="inputpadrao" required />
 
-        <label for="email_1">Email</label>
-        <input
-          type="email"
-          id="email_1"
-          class="inputpadrao"
-          placeholder="email@dominio.com"
-          required
-        />
+          <label for="email_1">Email</label>
+          <input
+            type="email"
+            id="email_1"
+            class="inputpadrao"
+            placeholder="email@dominio.com"
+            required
+          />
 
-        <label for="tel_1">Telefone</label>
-        <input
-          type="tel"
-          id="tel_1"
-          class="inputpadrao"
-          placeholder="(XX) XXXXX-XXXX"
-          required
-        />
+          <label for="tel_1">Telefone</label>
+          <input
+            type="tel"
+            id="tel_1"
+            class="inputpadrao"
+            placeholder="(XX) XXXXX-XXXX"
+            required
+          />
 
-        <label for="comen">Comentários</label>
-        <textarea name="comen" id="comen" cols="67" rows="15"></textarea>
+          <label for="comen">Comentários</label>
+          <textarea name="comen" id="comen" cols="67" rows="15"></textarea>
 
-        <!---------------------Chks---------------------------->
+          <!---------------------Chks---------------------------->
 
-        <fieldset>
-          <legend id="perg">Como prefere o contato?</legend>
-          <label for="rad_email">
-            <input
-              type="radio"
-              id="rad_email"
-              name="contato"
-              value="Email"
-              checked
-            />
-            Email</label
+          <fieldset>
+            <legend id="perg">Como prefere o contato?</legend>
+            <label for="rad_email">
+              <input
+                type="radio"
+                id="rad_email"
+                name="contato"
+                value="Email"
+                checked
+              />
+              Email</label
+            >
+
+            <label for="rad_tel">
+              <input
+                type="radio"
+                id="rad_tel"
+                name="contato"
+                value="Telefone"
+              />
+              Telefone</label
+            >
+
+            <label for="rad_whats">
+              <input
+                type="radio"
+                id="rad_whats"
+                name="contato"
+                value="WhatsApp"
+              />WhatsApp</label
+            >
+          </fieldset>
+
+          <!---------------------Seletor---------------------------->
+
+          <fieldset>
+            <legend>Qual horario prefere ser atendido?</legend>
+            <select name="" id="">
+              <option value="">Manhã</option>
+              <option value="">Tarde</option>
+              <option value="">Noite</option>
+            </select>
+          </fieldset>
+
+          <!---------------------Chkbox---------------------------->
+
+          <label for="chk" id="checkbox">
+            <input id="chk" type="checkbox" checked />Gostaria de receber
+            novidades via email</label
           >
 
-          <label for="rad_tel">
-            <input type="radio" id="rad_tel" name="contato" value="Telefone" />
-            Telefone</label
-          >
+          <!---------------------Enviar button---------------------------->
 
-          <label for="rad_whats">
-            <input
-              type="radio"
-              id="rad_whats"
-              name="contato"
-              value="WhatsApp"
-            />WhatsApp</label
-          >
-        </fieldset>
+          <input id="enviar" type="submit" value="Enviar Formlário" />
+        </form>
 
-        <!---------------------Seletor---------------------------->
+        <!---------------------Tabela---------------------------->
 
-        <fieldset>
-          <legend>Qual horario prefere ser atendido?</legend>
-          <select name="" id="">
-            <option value="">Manhã</option>
-            <option value="">Tarde</option>
-            <option value="">Noite</option>
-          </select>
-        </fieldset>
+        <table>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
 
-        <!---------------------Chkbox---------------------------->
+          <tbody>
+            <tr>
+              <td>Segunda</td>
+              <td>8h ~ 20h</td>
+            </tr>
 
-        <label for="chk" id="checkbox">
-          <input id="chk" type="checkbox" checked />Gostaria de receber
-          novidades via email</label
-        >
+            <tr>
+              <td>Terça</td>
+              <td>8h ~ 20h</td>
+            </tr>
 
-        <!---------------------Enviar button---------------------------->
-
-        <input id="enviar" type="submit" value="Enviar Formlário" />
-      </form>
-
-      <!---------------------Tabela---------------------------->
-
-      <table>
-        <thead>
-          <tr>
-            <th>Dia</th>
-            <th>Horário</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Segunda</td>
-            <td>8h ~ 20h</td>
-          </tr>
-
-          <tr>
-            <td>Terça</td>
-            <td>8h ~ 20h</td>
-          </tr>
-
-          <tr>
-            <td>Quarta</td>
-            <td>8h ~ 20h</td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <td>Quarta</td>
+              <td>8h ~ 20h</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
 
     <footer>

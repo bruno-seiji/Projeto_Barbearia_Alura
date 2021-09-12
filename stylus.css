@@ -5,7 +5,7 @@ body {
 /*------------------------------Header-------------------------------------*/
 
 #container1 {
-  width: 80%;
+  width: 90%;
   position: relative;
   margin: 0 auto;
 }
@@ -37,11 +37,11 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #logo {
-  width: 35rem;
+  width: 58%;
 }
 
 #logoh {
@@ -101,6 +101,7 @@ em {
 #mapa p {
   padding: 0 0 2rem;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 #beneficios {
@@ -137,8 +138,8 @@ em {
 
 #video {
   text-align: center;
-  width: 850px;
-  margin: 2rem auto;
+  width: 70%;
+  margin: 2rem auto 0 auto;
 }
 
 .marg {
@@ -146,7 +147,63 @@ em {
   margin: 0 auto;
 }
 
+/*----------Produtos----------------*/
+#Main_Produtos {
+  width: 100%;
+  text-align: center;
+}
+
+#Produtos {
+  width: 66rem;
+  margin: 0 auto;
+  padding: 3.12rem 0;
+}
+
+#Produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 28rem;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 1.87rem 1.25rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 0.2rem solid black;
+}
+
+#Produtos li:hover {
+  border-color: #c78c19;
+}
+
+#Produtos li:active {
+  border-color: #0cc725;
+}
+
+#Produtos li:hover h2 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.87rem;
+  font-weight: bold;
+}
+
+.Descrição {
+  font-size: 1.12rem;
+}
+
+.Preço {
+  margin-top: 0.62rem;
+  font-weight: bold;
+  font-size: 1.37rem;
+}
+
 /*------Formulario---------*/
+
+.main_form {
+  margin-left: 3rem;
+}
 
 form {
   margin: 2.5rem 0;
@@ -192,7 +249,7 @@ select {
 
 #enviar:hover {
   background: rgb(170, 170, 170);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 table {
@@ -211,57 +268,6 @@ th {
   border: 0.1rem solid black;
   padding: 0.5rem 1rem;
 }
-/*----------Produtos----------------*/
-#Main_Produtos {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-#Produtos {
-  width: 66rem;
-  margin: 0 auto;
-  padding: 3.12rem 0;
-}
-
-#Produtos li {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 1.87rem 1.25rem;
-  box-sizing: border-box;
-  border-radius: 0.5rem;
-  border: 0.2rem solid black;
-}
-
-#Produtos li:hover {
-  border-color: #c78c19;
-}
-
-#Produtos li:active {
-  border-color: #0cc725;
-}
-
-#Produtos li:hover h2 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 1.87rem;
-  font-weight: bold;
-}
-
-.Descrição {
-  font-size: 1.12rem;
-}
-
-.Preço {
-  margin-top: 0.62rem;
-  font-weight: bold;
-  font-size: 1.37rem;
-}
 
 /*------------------------------Footer-------------------------------------*/
 
@@ -277,8 +283,97 @@ footer img {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 480px) 
-{ 
-  
-  
+/*------------------------------Responsividade Mobile-------------------------------------*/
+/*------------------------------Header--------------------*/
+
+@media screen and (max-width: 480px) {
+  #logoh,
+  #logo,
+  #container1 {
+    width: 100%;
+  }
+
+  #container1 nav {
+    margin: 1rem auto;
+    display: inline-block;
+    position: absolute;
+    right: 11%;
+  }
+
+  #container1 nav ul li a {
+    font-size: 1rem;
+  }
+
+  #container1 nav ul li {
+    margin: 0;
+  }
+
+  #container1 .margin_right_nav {
+    margin-right: 1rem;
+  }
+
+  /*------------------------------Main--------------------*/
+  /*------------------------------Home--------------------*/
+  #beneficios h3 {
+    padding: 0;
+  }
+  #principal,
+  #mapa,
+  #beneficios {
+    padding: 2rem 0;
+  }
+
+  #principal,
+  #mapa {
+    text-align: center;
+  }
+
+  #utensilios {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    float: none;
+  }
+
+  #divben {
+    margin: 0 1rem;
+  }
+
+  #divben ul {
+    display: inline;
+  }
+
+  #divben li {
+    font-size: 1rem;
+  }
+
+  #divben img {
+    width: 90%;
+    margin: 1rem 0 0 5%;
+  }
+
+  /*------------------------------Produtos--------------------*/
+  #Produtos {
+    width: 100%;
+  }
+  #Produtos li {
+    width: 80%;
+    height: 10%;
+    margin: 1rem 0;
+  }
+
+  #Produtos li img {
+    width: 50%;
+  }
+
+  /*------------------------------Contato--------------------*/
+
+  #comen {
+    width: 90%;
+  }
+
+  /*------------------------------Footer--------------------*/
+  footer img {
+    width: 40%;
+  }
 }
