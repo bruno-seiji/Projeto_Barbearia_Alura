@@ -11,4 +11,4 @@ Esse projeto representa o início da minha jornada como desenvolvedor, e reforç
 📌 Tecnologias utilizadas: HTML5, CSS3 e JavaScript
 🎓 Projeto desenvolvido durante o curso da Alura
 
-Vercel: 
+Deploy: https://barbearia-alura-bscc.netlify.app 
