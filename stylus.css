@@ -317,14 +317,18 @@ footer img {
   #logoh,
   #logo,
   #container1 {
-    width: 100%;
+    width: 100vw;
+  }
+
+  #container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   #container1 nav {
     margin: 1rem auto;
-    display: inline-block;
-    position: absolute;
-    right: 11%;
+    
   }
 
   #container1 nav ul li a {
@@ -344,10 +348,10 @@ footer img {
   #beneficios h3 {
     padding: 0;
   }
-  #principal,
-  #mapa,
-  #beneficios {
-    padding: 2rem 0;
+  #principal{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
   }
 
   #principal,
@@ -356,12 +360,15 @@ footer img {
   }
 
   #utensilios {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    float: none;
+    display: none;
   }
 
+  #container_beneficios{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+  }
   #divben {
     margin: 0 1rem;
   }
@@ -375,18 +382,27 @@ footer img {
   }
 
   #divben img {
-    width: 90%;
-    margin: 1rem 0 0 5%;
+    display: none;
+  }
+
+  #video{
+    width: 100vw;
+
   }
 
   /*------------------------------Produtos--------------------*/
   #Produtos {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
   }
   #Produtos li {
-    width: 80%;
+    width: 80vw;
     height: 10%;
-    margin: 1rem 0;
+    
+
   }
 
   #Produtos li img {
@@ -395,9 +411,7 @@ footer img {
 
   /*------------------------------Contato--------------------*/
 
-  #comen {
-    width: 90%;
-  }
+
 
   /*------------------------------Footer--------------------*/
   footer img {
