@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 /*------------------------------Header-------------------------------------*/
@@ -410,8 +411,26 @@ footer img {
   }
 
   /*------------------------------Contato--------------------*/
+  .main_form{
+    width: 80vw;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0;
 
+    
+  }
 
+  .main_form label, .main_form input{
+    width: 90%;
+
+  }
+
+  form{ margin: 0;}
+
+  #enviar {
+    width: 90vw;
+    margin-bottom: 2rem;
+  }
 
   /*------------------------------Footer--------------------*/
   footer img {
